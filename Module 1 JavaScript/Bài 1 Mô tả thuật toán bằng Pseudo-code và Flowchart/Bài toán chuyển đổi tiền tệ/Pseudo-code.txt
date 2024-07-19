@@ -1,0 +1,9 @@
+BEGIN
+    INPUT dola
+    IF dola < 0
+        DISPLAY "The amount entered must be greater than or equal to 0"
+    ELSE
+        tienviet = dola * 23000
+        DISPLAY tienviet
+    End IF
+END
