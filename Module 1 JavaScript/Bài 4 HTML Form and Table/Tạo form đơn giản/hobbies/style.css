@@ -1,0 +1,55 @@
+:root{
+    --background-color: hsl(30, 54%, 90%);
+    --main-background-color: hsl(0, 0%, 100%);
+    --preparation-background-color: hsl(330, 100%, 98%);
+    --title-color: hsl(24, 5%, 18%);
+    --preparation-title-color: hsl(332, 51%, 32%);
+    --headline-color: hsl(14, 45%, 36%);
+    --content-color: hsl(30, 10%, 34%);
+}
+
+@font-face {
+    font-family: 'HeadlineFont';
+    src: url('/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'ContentFont';
+    src: url('/fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aqua;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'ContentFont';
+}
+
+form {
+   background-color: white;
+   border-radius: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'HeadlineFont';
+    color: var(--title-color);
+    background-color: var(--background-color);
+    margin-bottom: 20px;
+}
+
+p {
+    color: var(--headline-color);
+}
+
+input {
+    color: var(--content-color);
+}
